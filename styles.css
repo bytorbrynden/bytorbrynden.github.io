@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden;
+
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+
+    height: 100vh;
+
+    background-color: #121212;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    z-index: 1000;
+
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+    color: #00ff00;
+}
+
+.navbar-links a.active {
+    font-weight: bold;
+}
+
+main {
+    /* margin-top: 59px; */
+    /* height: calc(100vh - 59px); */
+    height: calc(100vh - 39px);
+
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+    color: white;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.hero-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.hero-links {
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.hero-link {
+    color: inherit;
+    margin: 0 10px;
+}
+
+.hero-link:hover {
+    transition: color 0.3s;
+}
+
+.linkedin:hover {
+    color: #0a66c2;
+}
+
+.github:hover {
+    color: #333;
+}
+
+.instagram:hover {
+    color: #c13584;
+}
+
+.twitter:hover {
+    color: #1da1f2;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    margin-top: 20px;
+
+    font-size: 1.4rem;
+}
+
+footer {
+    /* background-color: #333; */
+    color: #FFFFFF30;
+    text-align: center;
+    padding: 10px 0;
+}
